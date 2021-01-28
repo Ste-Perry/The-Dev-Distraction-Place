@@ -1,0 +1,17 @@
+.meditation-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mantras-menu {
+    width: 300px;
+}
+
+.spiral {
+    width: 500px;
+    height: 500px;
+}
+
+.sounds-menu {
+    width: 300px;
+}
