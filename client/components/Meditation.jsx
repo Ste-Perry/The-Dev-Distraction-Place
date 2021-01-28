@@ -9,17 +9,13 @@ const Meditation = () => {
     return (
         <div className="meditation-main">
             <div>
-                <div className="home-button">
-                    <Link to={`/`}><button >Home</button></Link>
-
+                <div className="button-container">
+                    <Link to={`/`}><button className="home-button">Home</button></Link>
                 </div>
-
                 <Mantras />
                 <Sounds />
             </div>
-
             <img className="spiral" src="/spinning/spinning-spiral.gif" />
-
         </div>
     );
 };

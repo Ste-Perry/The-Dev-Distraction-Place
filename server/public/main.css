@@ -30,10 +30,40 @@ body {
 
 .meditation-button {
     width: 100px;
-    height: 30px;
+    height: 40px;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    color: rgb(10, 10, 170);
+    border-width: 1px;
+    border-radius: 5px;
+    background-color:rgb(221, 220, 220);
+    cursor: pointer;
 }
 
 .home-button {
+    width: 100px;
+    font-family: 'Merienda', cursive;
+    color: rgb(28, 4, 167);
+    border-width: 1px;
+    border-radius: 5px;
+    background-color:rgb(221, 220, 220);
+    cursor: pointer;
+}
+
+.button-container {
     padding-left: 15px;
-    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.audio-list {
+    padding-top: 15px;
+}
+
+.audio-name {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Merienda', cursive;
+    color: rgb(39, 90, 185);
+    cursor: pointer;
 }
