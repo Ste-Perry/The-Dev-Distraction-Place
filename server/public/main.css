@@ -4,6 +4,37 @@ body {
     background-color: rgb(204, 253, 237);
 }
 
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-family: 'Merienda', cursive;
+    color: rgb(39, 90, 185);
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;;
+}
+
+.photo-link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    font-family: 'Merienda', cursive;
+    color: rgb(39, 90, 185);
+    font-size: 30px;
+    padding: 10px;
+}
+
 .meditation-main {
     display: flex;
 }
@@ -38,6 +69,7 @@ body {
     border-radius: 5px;
     background-color:rgb(221, 220, 220);
     cursor: pointer;
+    border-color: rgb(172, 170, 170);
 }
 
 .home-button {
@@ -46,6 +78,7 @@ body {
     color: rgb(28, 4, 167);
     border-width: 1px;
     border-radius: 5px;
+    border-color: rgb(161, 156, 156);
     background-color:rgb(221, 220, 220);
     cursor: pointer;
 }
@@ -65,5 +98,4 @@ body {
     padding-bottom: 5px;
     font-family: 'Merienda', cursive;
     color: rgb(39, 90, 185);
-    cursor: pointer;
 }
