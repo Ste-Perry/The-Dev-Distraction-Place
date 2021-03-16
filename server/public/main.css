@@ -1,0 +1,69 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(204, 253, 237);
+}
+
+.meditation-main {
+    display: flex;
+}
+
+.mantras-menu {
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 300px;
+}
+
+.spiral {
+    width: 500px;
+    height: 500px;
+    padding-top: 70px;
+    padding-left: 120px;
+}
+
+.sounds-menu {
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 15px;
+
+}
+
+.meditation-button {
+    width: 100px;
+    height: 40px;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    color: rgb(10, 10, 170);
+    border-width: 1px;
+    border-radius: 5px;
+    background-color:rgb(221, 220, 220);
+    cursor: pointer;
+}
+
+.home-button {
+    width: 100px;
+    font-family: 'Merienda', cursive;
+    color: rgb(28, 4, 167);
+    border-width: 1px;
+    border-radius: 5px;
+    background-color:rgb(221, 220, 220);
+    cursor: pointer;
+}
+
+.button-container {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.audio-list {
+    padding-top: 15px;
+}
+
+.audio-name {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Merienda', cursive;
+    color: rgb(39, 90, 185);
+    cursor: pointer;
+}
