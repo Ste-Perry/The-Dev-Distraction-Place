@@ -14,6 +14,7 @@ const Meditation = () => {
                 </div>
                 <Mantras />
                 <Sounds />
+                {/* <MoreOptions /> */}
             </div>
             <img className="spiral" src="/spinning/spinning-spiral.gif" />
         </div>
